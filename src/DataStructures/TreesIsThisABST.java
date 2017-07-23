@@ -13,6 +13,7 @@ public class TreesIsThisABST {
         }
     }
 
+
     public static boolean checkBST(Node root){
         return check(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
     }
