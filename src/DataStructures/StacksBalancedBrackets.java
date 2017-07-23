@@ -34,6 +34,7 @@ public class StacksBalancedBrackets {
             String expression = in.next();
             System.out.println( (isBalanced(expression)) ? "YES" : "NO" );
         }
+        in.close();
     }
 }
 
