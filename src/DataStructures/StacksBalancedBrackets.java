@@ -7,7 +7,7 @@ public class StacksBalancedBrackets {
 
 
     public static boolean isBalanced(String expression) {
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>(); 
         for(int i=0; i<expression.length(); i++){
             char cur = expression.charAt(i);
             if(cur == '{' || cur == '(' || cur == '['){
