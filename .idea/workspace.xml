@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad0ee20-f35b-4d0b-9b8e-8ceca05b4621" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/BinarySearchIceCreamParlor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/SortingBubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/SortingComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BigO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearchIceCreamParlor.java" afterPath="$PROJECT_DIR$/src/Algorithms/BinarySearchIceCreamParlor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +63,8 @@
       <file leaf-file-name="BinarySearchIceCreamParlor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/BinarySearchIceCreamParlor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="81" column="21" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="81" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -605,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/BinarySearchIceCreamParlor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="81" column="21" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="81" selection-end-column="21" />
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
