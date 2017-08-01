@@ -1,14 +1,13 @@
-package Algorithms;
+package HackerRank.Algorithms;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
+
+
 public class BinarySearchIceCreamParlor {
 
-
-
     public static void main(String[] args){
-
 
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
@@ -54,31 +53,33 @@ public class BinarySearchIceCreamParlor {
 
         return -1; //not found
     }
-}
 
-class IceCream implements Comparable{
-    int flavor;
-    int index;
+    static class  IceCream implements Comparable{
+        int flavor;
+        int index;
 
     public IceCream(int flavor, int index) {
-        this.flavor = flavor;
-        this.index = index;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        if(o instanceof IceCream){
-            IceCream comp = (IceCream) o;
-            return this.flavor - comp.flavor;
+            this.flavor = flavor;
+            this.index = index;
         }
-        return 0;
-    }
 
-    @Override
-    public boolean equals(Object o) {
-        if(o instanceof IceCream){
-            return this.flavor == ((IceCream)o).flavor;
+        @Override
+        public int compareTo(Object o) {
+            if(o instanceof IceCream){
+                IceCream comp = (IceCream) o;
+                return this.flavor - comp.flavor;
+            }
+            return 0;
         }
-        return false;
+
+        @Override
+        public boolean equals(Object o) {
+            if(o instanceof IceCream){
+                return this.flavor == ((IceCream)o).flavor;
+            }
+            return false;
+        }
     }
 }
+
+

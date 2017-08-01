@@ -1,4 +1,4 @@
-package Algorithms;
+package HackerRank.Algorithms;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -22,29 +22,31 @@ public class SortingComparator {
             System.out.printf("%s %s\n", player[i].name, player[i].score);
         }
     }
-}
 
-class Checker implements Comparator<Player>{
+    static class Checker implements Comparator<Player>{
 
-    @Override
-    public int compare(Player player1, Player player2) {
+        @Override
+        public int compare(Player player1, Player player2) {
 
-        if(player1.score == player2.score){
-            return player2.score - player1.score;
-        }else if(!player1.name.equals(player2.name)){
-            return player1.name.compareTo(player2.name);
+            if(player1.score == player2.score){
+                return player2.score - player1.score;
+            }else if(!player1.name.equals(player2.name)){
+                return player1.name.compareTo(player2.name);
+            }
+
+            return 0;
         }
+    }
 
-        return 0;
+    static class Player{
+        String name;
+        int score;
+
+        Player(String name, int score){
+            this.name = name;
+            this.score = score;
+        }
     }
 }
 
-class Player{
-    String name;
-    int score;
 
-    Player(String name, int score){
-        this.name = name;
-        this.score = score;
-    }
-}

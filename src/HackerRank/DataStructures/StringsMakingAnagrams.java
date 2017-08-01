@@ -1,4 +1,4 @@
-package DataStructures;
+package HackerRank.DataStructures;
 
 import java.util.Scanner;
 

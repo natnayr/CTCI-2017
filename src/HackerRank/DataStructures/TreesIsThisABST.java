@@ -1,4 +1,4 @@
-package DataStructures;
+package HackerRank.DataStructures;
 
 public class TreesIsThisABST {
 
