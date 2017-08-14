@@ -9,7 +9,7 @@ public class ThreeSum {
         Scanner in = new Scanner(System.in);
 
         int n = in.nextInt();
-        int[] nums = new int[];
+        int[] nums = new int[n];
 
         List<List<Integer>> results = threeSum(nums);
         for(List<Integer> setResult : results){
@@ -23,9 +23,7 @@ public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums){
 
         int a=0, b=1, c=2;
-        for(int a=0, b=1, c=2){
 
-        }
-
+        return null;
     }
 }
